@@ -1,0 +1,70 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header{
+    margin-left: 80px;
+    margin-top: 40px;   
+}
+
+body {
+    background-color: rgb(22, 162, 237);
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 90px;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 90px;
+    background-image: url("imagenes/minimalista-3.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    box-shadow: 10px 10px 30px 15px #000000;
+
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    box-shadow: 10px 10px 30px 10px #000000;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: rgb(3, 3, 13);
+    color:white;
+    width: 250px;
+    box-shadow: 10px 10px 30px 10px #000000;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    width: 250px;
+    box-shadow: 10px 10px 30px 10px #000000;
+}
+
+.informacion {
+    font-size: 15px;
+    margin-top: 20px;
+}
